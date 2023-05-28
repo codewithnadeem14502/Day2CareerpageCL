@@ -1,0 +1,472 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: -15px 0 0 20px;
+}
+.hero {
+  height: 400px;
+  width: 100%;
+}
+.hero-content {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.05);
+
+  height: 530px;
+}
+
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: #fff;
+  width: 1024px;
+  height: 50px;
+  /* padding: 20px; */
+  margin-left: 84px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: url("./assets/BLOB\ ANIMATION.gif"); */
+  /* background: url("/supprtsvgs/Gradient.png"); */
+  /* background: url("./assests/Gradient.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  /* background-size: 1840px; */
+  z-index: -1;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+}
+.dot {
+  font-size: 40px;
+  margin-top: -22px;
+  border-radius: 50%;
+  color: rgba(35, 172, 128, 1);
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  gap: 24px;
+  margin-top: 8px;
+  color: rgba(35, 172, 128, 1);
+  width: 91px;
+  height: 39px;
+  border: 1px solid rgba(35, 172, 128, 1);
+  border-radius: 8px 8px 20px 8px;
+
+  transition: all 1s ease-in-out;
+}
+
+.arrow {
+  visibility: hidden;
+}
+
+.login:hover .arrow {
+  visibility: visible;
+}
+.login:hover .dot {
+  display: none;
+}
+.login:hover {
+  background: linear-gradient(to right, #96e4df, #4dccc6);
+  transition: all 1s ease-in-out;
+  color: #fff;
+}
+
+.nav_section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display: block;
+  height: 520px;
+  width: 100%;
+  /* background: url("./assests/Gradient.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.header {
+  z-index: 9999;
+  /* position: relative; */
+}
+/* =================== navbar end  ============================= */
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-text {
+    position: absolute;
+    color: white; /* Set the color of the text */
+    font-size: 50px; /* Set the font size of the text */
+    font-weight: 500; /* Set the font weight of the text */
+ 
+    padding: 5px; /* Adjust the padding as needed */
+  }
+  
+  .goverlay{
+  color: #4dccc6;
+  /* font */
+  }
+  .image-container{
+    background-color: rgb(50, 208, 219);
+    width: 1250px;
+    height: 500px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* Set the desired border radius for the bottom */
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* Add any other styles you want */
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+  .imagetext{
+    margin-top: 180px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .image-text{
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-top: 120px;
+      /* background-color: red; */
+  }
+  .textbox1{
+    margin-top: 30px;
+    font-weight:400;
+    font-size: 40px;
+  }
+  .box1{
+    display: flex;
+    margin-left: 20px;
+    /* background-color: yellow; */
+
+  }
+   .left{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+    /* background-color: red; */
+  }
+  .Component{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .c12{
+    margin-right: 15px;
+
+  }
+  .c1
+  {
+    margin-bottom: 10px;
+  }
+  .c3{
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .right{
+    /* background-color: green; */
+   width: 1100px;
+    padding-left: 50px;
+    /* background-color: red; */
+  }
+  .statement{
+    margin-top: 120px;
+  }
+  .statement1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .nametitle{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .location{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    margin-bottom: 10px;
+
+  }
+  .img{
+    margin-top: 10px;
+  }
+  .box3{
+    display: flex;
+    /* background-color: aqua; */
+  }
+  .contentbox3{
+    /* background-color: hotpink; */
+    width: 800px;
+    margin-top: 40px;
+    /* font-weight: 500; */
+    margin-left: 40px;
+  }
+
+  .boximg{
+    /* background-color: yellow; */
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 100px 20px; */
+    /* background-color: yellow; */
+    margin: 50px  0;
+    height: 250px;
+  }
+   .boximg :hover{
+
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .tbox3{
+    font-weight: 500;
+    font-size:30px;
+  }
+ 
+
+  .containerimagess .boximg .bi {
+    border: 2px solid #000;
+     /* Set border properties */
+  }
+  /*    height: 300px;  300 -> after hover  */
+  .containerimagess .boximg .bi:nth-child(1) {
+    height: 350px;
+    /* Set different height for each image */
+  }
+  
+  .containerimagess .boximg .bi:nth-child(2) {
+    height: 270px;
+  }
+  
+  .containerimagess .boximg .bi:nth-child(3) {
+    height: 290px;
+  }
+  
+  .containerimagess .boximg .bi:nth-child(4) {
+    height: 250px;
+  }
+  
+  .containerimagess .boximg .bi:nth-child(5) {
+    height: 320px;
+  }
+  
+
+
+  
+  .imgcontainers {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    width: 500px;
+   margin: 60px 40px;
+  }
+  .firstimage
+  {
+    margin-right: 20px;
+  }
+  .imgcontainers:hover .firstimage img {
+    transform: scale(1.2); 
+    /* Increase the scale to make it bigger */
+    z-index: 0;
+  }
+  
+  .imgcontainers:hover .secondimages:not(:hover) {
+    transform: scale(0.8); /* Decrease the scale to make it smaller */
+    z-index: 1;
+  }
+  
+  .imgcontainers .secondimages:hover {
+    transform: scale(1.2); /* Increase the scale to make it bigger */
+    z-index: 3;
+  }
+  
+  .imgcontainers:hover .firstimage img,
+  .imgcontainers .secondimages:hover {
+    position: relative;
+  }
+  
+  .box4
+  {
+ 
+    margin: 30px 20px;
+  }
+  .boxtext{
+    margin: 50px 90px;
+  }
+  .pbox3{
+   margin-top: 20px;
+  font-weight: 200;
+  font-size:15px;
+ }
+ .listbox4{
+  margin-top: 40px;
+  margin-left:35px;
+  color: black;
+  /* background-color: red; */
+}
+.listbox4_1 ul li,
+.listbox4_2 ul li {
+  list-style-type: disc;
+  margin-left: 10px;
+margin-top: 20px;
+font-size: 15px;
+  color: black;
+}
+.listbox4_2
+{
+  margin-left: 50px;
+}
+.locatv{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.tboxlast{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.tboxlastspa
+{
+  margin-left: 8px;
+  color: #01787B ;
+}
+
+footer{
+
+  background-color: black;
+}
+.footer1
+{
+ 
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlef{
+  color: #01787B ;
+  font-weight: 500;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+li,.text1{
+  color: white;
+  margin-bottom: 10px;
+}
+.footerlogo{
+  color: #01787B ;
+}
+.textfooter,.textfooteraction{
+  color: white;
+}
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 120px;
+}
+.footerlog{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.socialmedia{
+  display: flex;
+}
+.socialmedia img{
+  margin-left: 20px;
+
+}
+.last{
+  color: white;
+  margin-left: 50px;
+}
+.last p{
+  font-family: sans-serif;
+}
+.last2{
+  /* display: flex; */
+  color: white;
+  margin-top: 20px;
+ /* justify-content: space-evenly; */
+}
+.textff
+{
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.fbtns{
+  margin: 5px;
+  padding: 10px;
+  background-color:#01C096 ;
+   border-radius: 5px;
+}
+.last2 {
+  display: flex;
+  justify-content: space-between;
+}
+.lastp2
+{
+  padding-right: 120px;
+  text-decoration: underline;
+}
+.lastp1,
+.lastp2 {
+  margin: 0;
+}
